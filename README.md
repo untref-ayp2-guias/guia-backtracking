@@ -1,10 +1,11 @@
-# Guía 10
+# Guía 10 - Backtracking
 ## Implementaciones de las diapositivas
 
 En las siguientes carpetas se encuentran las implementaciones del código suministrado en las clases:
 
-- `/puzzle`, el ejemplo de adapter, utilizando los frenos de distintas bicicletas
-- `/sudoku`, el ejemplo de composite, con directorios y archivos
+- `/ratmaze`, problema del laberinto, resuelto con backtracking
+- `/sudoku`, resolución de un sudoku clásico, utilizando backtracking
+- `/main`, ejecuciones adicionales con fines interactivos
 
 ## Ejercicios
 
