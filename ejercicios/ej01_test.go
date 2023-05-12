@@ -1,18 +1,13 @@
 package ejercicios
 
 import (
-	"fmt"
 	"testing"
 )
 
-func TestEjercicio1(t *testing.T) {
-	n := 5
-	k := 3
-
-	solucion := Ejercicio1(n, k)
-	fmt.Println(solucion)
-
-	if len(solucion) != 10 {
-		t.Error("La solucion no es correcta")
+func TestDados(t *testing.T) {
+	n, k, x := 3, 6, 7
+	formas := Dados(n, k, x)
+	if formas != 15 {
+		t.Errorf("Dados(n, k, x) = %d; want 15", formas)
 	}
 }
