@@ -1,14 +1,4 @@
 # Guía 10 - Backtracking
-## Implementaciones de las diapositivas
-
-En las siguientes carpetas se encuentran las implementaciones de algunos problemas utilizando backtracking:
-
-- `/ratmaze`, problema del laberinto, resuelto con backtracking
-- `/cambio`, problema del cambio de moneda, resuelto con backtracking
-- `/sudoku`, resolución de un sudoku clásico, utilizando backtracking
-- `/reinas`, resolución del problema de las n reinas, utilizando backtracking
-
-- `/main`, ejecuciones adicionales con fines interactivos
 
 ## Ejercicios
 
