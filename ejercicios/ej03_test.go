@@ -3,6 +3,8 @@ package ejercicios
 import (
 	"fmt"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func TestMochila3(t *testing.T) {
@@ -16,9 +18,7 @@ func TestMochila3(t *testing.T) {
 	capacidad := 11
 	valor, solucion := Mochila2(objetos, capacidad)
 	fmt.Println(solucion)
-	if valor != 56 {
-		t.Errorf("Mochila3(objetos, capacidad) = %d; se esperaba 56", valor)
-	}
+	assert.Equal(t, 56, valor)
 }
 
 func TestMochila4(t *testing.T) {
@@ -32,7 +32,5 @@ func TestMochila4(t *testing.T) {
 	capacidad := 11
 	valor, solucion := Mochila2(objetos, capacidad)
 	fmt.Println(solucion)
-	if valor != 62 {
-		t.Errorf("Mochila2(objetos, capacidad) = %d; se esperaba 62", valor)
-	}
+	assert.Equal(t, 62, valor)
 }

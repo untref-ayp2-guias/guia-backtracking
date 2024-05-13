@@ -2,6 +2,8 @@ package ejercicios
 
 import (
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func TestMochila01(t *testing.T) {
@@ -14,7 +16,5 @@ func TestMochila01(t *testing.T) {
 	}
 	capacidad := 11
 	valor := Mochila01(objetos, capacidad)
-	if valor != 40 {
-		t.Errorf("Mochila01(objetos, capacidad) = %d; want 40", valor)
-	}
+	assert.Equal(t, 40, valor)
 }

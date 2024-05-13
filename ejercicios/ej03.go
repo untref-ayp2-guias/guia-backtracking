@@ -11,5 +11,4 @@ func Mochila2(Objetos []Objeto, capacity int) (int, []Objeto) {
 }
 
 func backtrack(Objetos []Objeto, index, capacity, currentValor int, bestValor *int, currentSubset, bestSubset []Objeto) {
-	panic("Implementar")
 }
