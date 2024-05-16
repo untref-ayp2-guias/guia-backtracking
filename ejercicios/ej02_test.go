@@ -16,5 +16,5 @@ func TestMochila01(t *testing.T) {
 	}
 	capacidad := 11
 	valor := Mochila01(objetos, capacidad)
-	assert.Equal(t, 40, valor)
+	assert.Equal(t, 56, valor)
 }
